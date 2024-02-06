@@ -1,0 +1,70 @@
+.all_formation {
+    margin: 50px 0;
+}
+
+.all_formation h2,
+.all_formation h3 {
+    margin: 20px;
+}
+
+.all_formation h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.all_formation h3 {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.banner-formation {
+    background: url("assets/fond.png");
+    background-size: cover;
+    height: 550px;
+}
+
+.banner-formation p,
+.banner-formation h3 {
+    color: rgb(34, 34, 34);
+}
+
+.row-formation {
+    display: flex;
+    justify-content: center;
+}
+
+.formation {
+    width: 20%;
+    margin: 10px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.head-formation {
+    width: 100%;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.button-formation {
+    display: block;
+    margin: auto 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f1757f;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid #f1757f;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.description-formation {
+    text-align: start;
+}
