@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <script src="chatbot.js"></script>
+    <link rel="stylesheet" href="chatbot.css">
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -30,6 +31,28 @@
                 l'innovation et ouvre la porte à un avenir prometteur.</p>
             <a href="login.html" class="boutton boutton-1">SE CONNECTER</a>
             <a href="signin.html" class="boutton boutton-2">S'INSCRIRE</a>
+        </div>
+    </div>
+    <div class="container open-chat">
+        <p>Vous avez des questions ? N'hésitez pas à venir nous en parler directement</p>
+        <button class=" chat-box" onclick="showChat()">Ouvrir le Chat</button>
+    </div>
+    <div class="chatbot" id="chatbot">
+        <div class="box">
+            <div class="head-chat">
+                <h2>Chat</h2>
+                <button id="quit" onclick="closeChat()">x</button>
+            </div>
+            <div class="discuss"></div>
+            <div class="chat">
+                <div class="container-inp">
+                    <div class="inp">
+                        <textarea placeholder="Entrez votre message" id="message" minlength="1"
+                            maxlength="1500"></textarea>
+                    </div>
+                    <button onclick="sendMessage()" class="submit"><img src="send.svg"></button>
+                </div>
+            </div>
         </div>
     </div>
 

@@ -9,6 +9,22 @@ body {
 
 }
 
+.chat-box {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f1757f;
+    color: white;
+    border: 1px solid #f1757f;
+
+}
+
+.open-chat {
+    padding: 20px;
+    margin: 10px;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -103,9 +119,8 @@ section {
 }
 
 .formations {
-    position: relative;
-    top: 30px;
-    left: 90px;
+    display: block;
+    margin: 20px 40px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -115,7 +130,7 @@ section {
     border-radius: 20px;
     color: white;
     border: 1px solid #f1757f;
-    transition: background-color 0.3s, color 0.3s;
+    transition: all 0.3s;
 }
 
 .formations:hover {
@@ -127,6 +142,7 @@ section {
     background: url("assets/banner.jpg");
     background-size: cover;
     height: 550px;
+    margin: 0;
 }
 
 .accroche {

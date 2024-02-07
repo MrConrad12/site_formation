@@ -11,17 +11,17 @@
 
 <body>
     <div class="chatbot">
-        <div class="box">
+        <div class="head-chat">
             <h2>Chat</h2>
-            <div class="discuss"></div>
-            <div class="chat">
-                <div class="container-inp">
-                    <div class="inp">
-                        <textarea placeholder="Entrez votre message" id="message" minlength="1"
-                            maxlength="1500"></textarea>
-                    </div>
-                    <button onclick="sendMessage()" class="submit"><img src="send.svg"></button>
+            <div id="quit">X</div>
+        </div>
+        <div class="discuss"></div>
+        <div class="chat">
+            <div class="container-inp">
+                <div class="inp">
+                    <textarea placeholder="Entrez votre message" id="message" minlength="1" maxlength="1500"></textarea>
                 </div>
+                <button onclick="sendMessage()" class="submit"><img src="send.svg"></button>
             </div>
         </div>
     </div>

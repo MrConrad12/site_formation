@@ -15,6 +15,10 @@ function sendMessage() {
 }
 
 function showChat() {
-    var chatbot = document.getElementById("chat-box");
-    chatbot.style.display = block;
+    document.getElementById("chatbot").style.visibility = "visible";
+
+}
+
+function closeChat() {
+    document.getElementById("chatbot").style.visibility = "hidden";
 }

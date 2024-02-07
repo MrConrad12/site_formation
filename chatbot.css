@@ -5,12 +5,10 @@ body {
 }
 
 .chatbot {
+    visibility: hidden;
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
-
-.box {
     width: 300px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -19,12 +17,27 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.head-chat {
     background-color: #f1757f;
     color: #fff;
     margin: 0;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
+}
+
+
+#quit {
+    border: 0px solid white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    border-radius: 100px;
+    color: #f1757f;
+    background-color: white;
+    height: 22px;
+    width: 22px;
 }
 
 .discuss {
@@ -42,7 +55,7 @@ textarea {
     resize: none;
 }
 
-button {
+.submit {
     width: calc(100% - 20px);
     padding: 10px;
     margin: 10px;
